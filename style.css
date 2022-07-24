@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    border-top: 7px solid #b9b9ba;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(101, 124, 139); 
+    width: 100%;
+    
+}
+
+.nada {
+    display: none;
+}
+
+.titulo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+
+}
+
+h1{
+    margin-top: 5%;
+}
+
+
+.subtitulo{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.redes_sociais{
+    display: flex;
+    justify-content: start;
+}
+
+.likedin, .youtube, .github{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+nav{
+    background-color:#b9b9ba;
+    width: 100%;
+    display: flex;
+}
+
+.nav2{
+    background-color:#b9b9ba;
+    width: 100%;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 500; 
+    color: white;
+}
+
+
+.likedin{
+    margin-left: 12%;
+
+}
+
+li:hover{
+    color: black;
+}
+
+.educacao{
+    margin-left: auto;
+}
+
+.contato{
+    margin-right: 8%;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.espaço_esquerdo, .espaço_direito{
+    width: 10%;
+    flex-shrink: 2;
+}
+.main{
+    width: 80%;
+    flex-shrink: 1;
+}
+
+
+.titulo2{
+    display: none;
+}
+
+.nav2, .hamburger{
+    display: none;
+
+}
+
+.menu{
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width:1180px){
+
+    h1{
+        font-size: 35px;
+    }
+    .subtitulo{
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:588px){
+
+   .titulo{
+    display: none;
+   }
+   .titulo2{
+    display: block;
+   }
+
+   .redes_sociais{
+    display: flex;
+    justify-content: start;
+    }
+
+    .subtitulo2{
+        color: white;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:548px){
+    
+    h1{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 15px;
+    }
+    
+    
+    nav{
+        display: none;
+    }
+
+    .nav2{
+        display: flex;
+        width: 100%;
+        background-color: #b9b9ba;
+    }
+
+    .hamburger{
+        display:inline-block;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+    .menu{
+        background-color: hsla(220, 4%, 43%, 0.3);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 33%;
+        height: 100%;
+        left: 0px;
+    }
+
+    .educacao{
+        margin-top: 300px;
+    }
+
+    li{
+        list-style-type: disc;
+        color: black;
+        font-size: 10px;
+    }
+
+    li:hover{
+        color: white;
+        cursor: pointer;
+    }
+
+}
