@@ -147,7 +147,11 @@ li:hover{
     }
 
     header{
-        justify-content: center;
+        justify-content: center;    
+    }
+
+    figure{
+        margin-top: 5%;
     }
 
 }
@@ -160,10 +164,10 @@ li:hover{
     
     
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .subtitulo{
-        font-size: 15px;
+        font-size: 14px;
     }
     
     
