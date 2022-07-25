@@ -116,6 +116,14 @@ li:hover{
 .menu{
     display: none;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
 
 @media (min-width: 320px) and (max-width:1180px){
 
