@@ -30,6 +30,9 @@ function mouseTrack(){
 }
 
 function voltandoMenu(){
-    m.classList.remove('menu')
-    m.classList.add('nada')
+    if(m.getAttribute('class')){
+        m.classList.remove('menu')
+        m.classList.add('nada')
+    }
+
 }
