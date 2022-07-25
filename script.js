@@ -8,6 +8,11 @@ h.addEventListener('click', (e)=>{
     m.classList.add('menu')
     console.log(m.getAttribute('class'))
     mouseTrack()
+    console.log(m.getAttribute('class'))
+    if(m.getAttribute('class') == 'menu'){
+        setTimeout(voltandoMenu, 8000)
+    }
+
 
 })
 
@@ -22,4 +27,9 @@ function mouseTrack(){
  
     })
 
+}
+
+function voltandoMenu(){
+    m.classList.remove('menu')
+    m.classList.add('nada')
 }
