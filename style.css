@@ -137,6 +137,11 @@ li:hover{
     .subtitulo{
         font-size: 14px;
     }
+
+    .titulo{
+        margin-top: 3%;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width:588px){
@@ -146,6 +151,8 @@ li:hover{
    }
    .titulo2{
     display: block;
+    
+
    }
 
    .redes_sociais{
