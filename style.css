@@ -6,6 +6,8 @@
 
 html, body{
     height: 100%;
+    min-width: 320px;
+    font-family: Helvetica, sans-serif;
 }
 
 header{
@@ -14,7 +16,12 @@ header{
     justify-content: flex-start;
     background-color: rgb(101, 124, 139); 
     width: 100%;
+    min-width: 320px;
     
+}
+
+.perfil{
+    margin-top: 3% ;
 }
 
 .nada {
@@ -27,6 +34,7 @@ header{
     flex-direction: column;
     justify-content: center;
     font-size: 1.3rem;
+    margin-top: 0.5%;
 
 }
 
@@ -82,7 +90,7 @@ li:hover{
     color: black;
 }
 
-.educacao{
+.ARTIGOS{
     margin-left: auto;
 }
 
@@ -125,14 +133,23 @@ a:hover{
     color: black;
 }
 
+.educacao{
+    margin-left: auto;
+}
+
 @media (min-width: 320px) and (max-width:1180px){
 
     h1{
-        font-size: 35px;
+        font-size: 25px;
     }
     .subtitulo{
-        font-size: 19px;
+        font-size: 14px;
     }
+
+    .titulo{
+        margin-top: 3%;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width:588px){
@@ -142,7 +159,8 @@ a:hover{
    }
    .titulo2{
     display: block;
-    margin-left: 10%;
+    
+
    }
 
    .redes_sociais{
@@ -208,20 +226,36 @@ a:hover{
         width: 33%;
         height: 100%;
         left: 0px;
+        justify-content: flex-start;
     }
 
-    .educacao{
-        margin-top: 300px;
+    .ARTIGOS{
+       margin-left: 0;
+       margin-top: 30%;
+    }
+
+    .contato{
+        margin-bottom: auto;
     }
 
     li{
         list-style-type: disc;
+        list-style: disc;
         color: black;
         font-size: 10px;
+        margin-left: 10%;
+        font-size: 0.8rem;
+        color: white;
     }
 
+    .ARTIGOS{
+        margin-left: 0;
+        margin-top: 30%;
+        margin-left: 10%;
+     }
+
     li:hover{
-        color: white;
+        color: rgb(8, 8, 8);
         cursor: pointer;
     }
 
