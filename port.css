@@ -68,5 +68,21 @@ figure:hover{
     margin-left: 8.4%;
 }
 
+.artigos{
+    margin-left: auto;
+}
+
+footer{
+    background-color: rgb(101, 124, 139);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.fp{
+    align-self: center;
+}
 
 
