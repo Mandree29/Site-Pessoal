@@ -40,12 +40,13 @@ figure:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(151, 153, 155, 0.5);
+    background-color: rgba(151, 153, 155, 0.3);
     height: 100%;
     width: 100%;
     opacity: 0;
     padding-top: 40%;
     color: white;
+    font-size: 1.2rem;
 
 }
 
@@ -69,5 +70,21 @@ figure:hover{
     margin-left: 8.4%;
 }
 
+.artigos{
+    margin-left: auto;
+}
+
+footer{
+    background-color: rgb(101, 124, 139);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.fp{
+    align-self: center;
+}
 
 
