@@ -1,3 +1,8 @@
+.couteudo{
+    display: flex;
+    flex-direction: column;
+}
+
 .main{
     display: grid;
     grid-gap: 10%;
@@ -6,7 +11,9 @@
     grid-gap: 10px;
     justify-content: center;
     padding-top: 3%;
+    height: 72vh;
 }
+
 
 .image{
     border: 2px solid rgb(101, 124, 139);
@@ -65,13 +72,10 @@ figure:hover{
 
 }
 
-.educacao{
-    margin-top: 30%;
-    margin-left: 8.4%;
-}
 
 .artigos{
     margin-left: auto;
+    margin-top: 10%;
 }
 
 footer{
@@ -87,4 +91,20 @@ footer{
     align-self: center;
 }
 
+.art{
+    margin-top: 10%;
+}
 
+
+.educacao1{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.educacao2{
+    margin-left: auto;
+}
+
+@media (min-width: 320px) and (max-width:588px){
+
+}
