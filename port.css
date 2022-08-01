@@ -80,6 +80,7 @@ figure:hover{
 
 footer{
     background-color: rgb(101, 124, 139);
+    border-top: 8px solid #b9b9ba;
     height: 10vh;
     display: flex;
     justify-content: center;
